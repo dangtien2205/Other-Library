@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EEEEEE"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#da5f6a"
+        android:gravity="center"
+        android:padding="@dimen/_15sdp"
+        android:text="@string/title_dialog"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:gravity="center"
+        android:text="@string/content"
+        android:textColor="#212121"
+        android:textSize="17sp" />
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:theme="@style/RatingBarfeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:max="5"
+        android:numStars="5"
+        android:paddingBottom="@dimen/_20sdp"
+        android:stepSize="1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|right"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/bgr_btn_dialog"
+            android:padding="@dimen/_10sdp"
+            android:text="OK"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_not_now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/bgr_btn_dialog"
+            android:padding="@dimen/_10sdp"
+            android:text="Not Now"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
