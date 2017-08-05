@@ -31,7 +31,7 @@ OtherMethor.checkService(context,Your Service's ClassName);
  
 ## 4. Check Permission Service on device XiaoMi and Huawei
 ```  
-  OtherMethor.checkPermission(context);
+OtherMethor.checkPermission(context);
 ``` 
 
 ## 5. Click 3D Touch
@@ -48,15 +48,15 @@ OtherMethor.click3DTouch(context ,time_delay ,new OtherMethor.OnClick() {
 ## 6. Other App
 
 **Open Introduction :**
-
-                ArrayList<Integer> arrayList = new ArrayList<>();
-                arrayList.add(R.drawable.bg1);
-                arrayList.add(R.drawable.bg2);
-                arrayList.add(R.drawable.bg3);
-                arrayList.add(R.drawable.bg4);
-                arrayList.add(R.drawable.bg5);
-                IntroductionActivity.startIntroduction(this,arrayList);
-
+```  
+ArrayList<Integer> arrayList = new ArrayList<>();
+arrayList.add(R.drawable.bg1);
+arrayList.add(R.drawable.bg2);
+arrayList.add(R.drawable.bg3);
+arrayList.add(R.drawable.bg4);
+arrayList.add(R.drawable.bg5);
+IntroductionActivity.startIntroduction(this,arrayList);
+```  
 ![Alt Text](./screenshots/bg1.jpg)
 
 **Dialog rate app :**
