@@ -1,5 +1,19 @@
 # Other Library
 
+
+## How to use
+If you prefer it, you can use the gradle dependency, you have to add these lines in your build.gradle file:
+```  
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'com.otherlibrary.tiplibrary:otherlibrary:1.1.1'
+}
+
+```  
+
 ## 1. SharedPreferences
 ```  
 AppPref mAppPref= AppPref.getPref(context); 
