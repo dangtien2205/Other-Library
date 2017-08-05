@@ -82,7 +82,7 @@ When onBackPressed() you use code
 ``` 
 When onClick() you use code:
  ```  
-                dialogFiveStarsNotFinish.show();
+dialogFiveStarsNotFinish.show();
 ``` 
 
 **Feed back  :**
