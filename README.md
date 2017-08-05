@@ -57,7 +57,7 @@ OtherMethor.click3DTouch(context ,time_delay ,new OtherMethor.OnClick() {
                 arrayList.add(R.drawable.bg5);
                 IntroductionActivity.startIntroduction(this,arrayList);
 
-![Alt Text](./screenshots/bg1.png)
+![Alt Text](./screenshots/bg1.jpg)
 
 **Dialog rate app :**
 ```  
