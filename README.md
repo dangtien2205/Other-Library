@@ -42,7 +42,7 @@ Then edit manifest :
 ```  
 OtherMethor.checkService(context,Your Service's ClassName);
 
-Ex: OtherMethor.checkService(context,context.getPackageName+".MyService");
+Ex: OtherMethor.checkService(context,context.getPackageName+".service.MyService");
 ```
  
 ## 4. Check Permission Service on device XiaoMi and Huawei
