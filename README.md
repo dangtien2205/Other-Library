@@ -77,8 +77,8 @@ IntroductionActivity.startIntroduction(this,arrayList);
 
 **Dialog rate app :**
 ```  
-DialogFiveStars fiveStarsDialog = new DialogFiveStars(context, "");
-DialogFiveStarsNotFinish  dialogFiveStarsNotFinish = new DialogFiveStarsNotFinish(context, "");
+DialogFiveStars fiveStarsDialog = new DialogFiveStars(context, "");// dialog dành cho khi back thoát app
+DialogFiveStarsNotFinish  dialogFiveStarsNotFinish = new DialogFiveStarsNotFinish(context, "");//dialog dành cho khi click 1 view 
 ``` 
 When onBackPressed() you use code 
 ```  
