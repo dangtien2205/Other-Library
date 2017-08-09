@@ -25,7 +25,7 @@ String name =mAppPref.getString(Constant.TEXT,"");
 
 You need create file MyApp.java .Then add code 
 ```  
-public class App extends App {
+public class MyApp extends App {
 }
 ``` 
 Then edit manifest :
@@ -41,6 +41,8 @@ Then edit manifest :
 ## 3. Check Service
 ```  
 OtherMethor.checkService(context,Your Service's ClassName);
+
+Ex: OtherMethor.checkService(context,context.getPackageName+".MyService");
 ```
  
 ## 4. Check Permission Service on device XiaoMi and Huawei
@@ -80,6 +82,12 @@ DialogFiveStarsNotFinish  dialogFiveStarsNotFinish = new DialogFiveStarsNotFinis
 ``` 
 When onBackPressed() you use code 
 ```  
+  private int numBack=1;
+  @Override
+    public void onResume() {
+       super.onResume();
+       numBack=1;
+    }
   @Override
     public void onBackPressed() {
         if (numBack == 1) {
